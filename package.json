@@ -1,0 +1,38 @@
+{
+  "name": "webpack-react-starterkit",
+  "version": "1.0.0",
+  "description": "Stater Kit for  using react-webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagarajmanjunath/webpack-react-starterkit.git"
+  },
+  "author": "nagaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagarajmanjunath/webpack-react-starterkit/issues"
+  },
+  "homepage": "https://github.com/nagarajmanjunath/webpack-react-starterkit#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "file-loader": "^6.2.0",
+    "saas": "^1.0.0",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
